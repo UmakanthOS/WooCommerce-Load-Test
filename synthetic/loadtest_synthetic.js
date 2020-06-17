@@ -5,8 +5,8 @@ const test_url = 'https://dev-accelerated-store-demo.pantheonsite.io';
 // Exports
 module.exports = { runTest }
 
-// Include Puppeteer
-const puppeteer = require( '/usr/local/lib/node_modules/puppeteer' );
+// Include Puppeteer. Puppeteer 4.0 node location is updated
+const puppeteer = require( '/usr/lib/node_modules/puppeteer' );
 
 // Increase Event Listeners
 process.setMaxListeners( 0 );
